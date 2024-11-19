@@ -133,6 +133,15 @@ main{
     line-height: 1.6rem;
     color: #757575;
 }
+.main--tables-container{
+    display: flex;
+    gap: 30px;
+    height: auto;
+    padding: 0 45px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
 .main--currency-table, .main--commissions-table{
     width: 70%;
     min-width: 235px;
